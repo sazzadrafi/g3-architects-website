@@ -12,6 +12,16 @@
 .display-flex{
     display: flex;
 }
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight:600 ; 
+    color: white;
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding:20px 25px ;
+
+}
 /* text color */
 .dark2{
     color: #424242 ;
@@ -45,4 +55,24 @@ margin-right: 30px;
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+/* Banner Related style */
+.banner-content{
+    max-width: 850;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 49px ;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem; 
+}
+.banner-image{width: 100%;
+
+}
+/* Responsive media query */
+@media screen and (max-width:580px) {
+ .navbar, .nav-links{
+     flex-direction: column;
+ }
 }
