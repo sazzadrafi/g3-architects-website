@@ -8,3 +8,41 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* text color */
+.dark2{
+    color: #424242 ;
+
+}
+.dark3{
+    color: #727272 ;
+}
+/* Header part styles */
+.bg-light{
+    background-color: rgb(255,244,231);
+}
+/* Navbar related styles */
+.navbar{
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 2.813rem;
+}
+.nav-item{ 
+list-style: none;
+margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
